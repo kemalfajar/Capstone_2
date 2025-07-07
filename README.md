@@ -1,5 +1,4 @@
-# Capstone_2
-#Program Manajemen Data Karyawan
+#Program Manajemen Data Karyawan (Capstone 2)
 
 Program ini adalah aplikasi berbasis Python yang bertujuan mengelola data karyawan. Program ini menggunakan library `tabulate` untuk menampilkan data dalam format tabel.Program ini memungkinkan pengguna untuk mencatat, menghapus, melihat, mengubah, menghapus, memfilter, menyortir, dan menghitung statistik data karyawan. Program ini menggunakan library `tabulate` untuk menampilkan data dalam format tabel.
 
