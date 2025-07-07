@@ -1,28 +1,29 @@
 # Capstone_2
 #Program Manajemen Data Karyawan
 
-Program ini adalah aplikasi sederhana berbasis Python untuk mengelola data karyawan. Program ini menggunakan library `tabulate` untuk menampilkan data dalam format tabel.
+Program ini adalah aplikasi berbasis Python yang bertujuan mengelola data karyawan. Program ini menggunakan library `tabulate` untuk menampilkan data dalam format tabel.Program ini memungkinkan pengguna untuk mencatat, menghapus, melihat, mengubah, menghapus, memfilter, menyortir, dan menghitung statistik data karyawan. Program ini menggunakan library `tabulate` untuk menampilkan data dalam format tabel.
+
 
 ---
 
 ## Fitur
 
 ### Login
-- Sistem login sederhana untuk mengakses aplikasi.
+- Sistem login untuk aksesaplikasi.
 - Data login disimpan di dalam dictionary `users`.
 
 ---
 
 ### Menu Utama
-1. Tambah Karyawan (Create)  
-   Menambahkan data karyawan baru ke database.
-2. Lihat Data Karyawan (Read)  
+1. Tambah Karyawan  
+   Menambahkan data karyawan baru ke dalam database.
+2. Lihat Data Karyawan  
    Menampilkan, memfilter, menyortir, dan menghitung statistik data karyawan.
-3. Ubah Data Karyawan (Update)  
+3. Ubah Data Karyawan  
    Memodifikasi data karyawan berdasarkan nomor indeks.
-4. Hapus Karyawan (Delete)  
+4. Hapus Karyawan   
    Menghapus data karyawan berdasarkan nomor indeks.
-5. Keluar Program (Exit)  
+5. Keluar Program 
    Menutup aplikasi.
 
 ---
@@ -39,7 +40,7 @@ Cari karyawan berdasarkan:
 - Divisi
 
 #### 3. Sorting Karyawan
-Urutkan data berdasarkan salah satu dari:
+Mengurutkan data berdasarkan salah satu dari:
 - Nama
 - Tanggal Lahir
 - Nomor Induk Pegawai
@@ -51,7 +52,7 @@ Urutkan data berdasarkan salah satu dari:
 - Gaji
 - Pendidikan Terakhir
 
-Pilih urutan ascending (A) atau descending (D).
+Memilih urutan ascending (A) atau descending (D).
 
 #### 4. Hitung Statistik Pegawai
 - Total jumlah karyawan.
@@ -62,7 +63,21 @@ Pilih urutan ascending (A) atau descending (D).
 - Total gaji per divisi.
 
 ---
+### Login
+- Sistem login untuk mengakses aplikasi.
+- Data login disimpan di dictionary `users`.
+- Contoh login:
+  ```python
+  users = {
+      "user001": "ahmadsenapan"
+  }
+---
+## Syarat
+- Python 3.x sudah terinstall
+- Install library tabulate:
+ pip install tabulate
 
+---
 ## Struktur Data
 
 Data karyawan disimpan sebagai list of dictionaries:
